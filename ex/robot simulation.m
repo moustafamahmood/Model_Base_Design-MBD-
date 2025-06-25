@@ -1,0 +1,11 @@
+l1= 10;
+l2= 7;
+theta1=30;
+theta2=60;
+x1 = l1*cosd(theta1);
+y1= l1*sind(theta1);
+x2= x1+l2*cosd(theta2);
+y2= y1+l2*sind(theta2);
+plot([0,x1],[0,y1]);
+hold on;
+plot([x1,x2],[x1,y2]);

@@ -1,0 +1,4 @@
+function [meanvalue, stdvalue] = computeStatistics(data)
+meanvalue = mean(data);
+stdvalue = s(data);
+end
